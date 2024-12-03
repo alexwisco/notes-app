@@ -1,8 +1,4 @@
-# React + Vite
+Note taking app upgraded from a task in the fullstackopen.com course.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- updating UI and general design and implementing additional functionality (editing notes, better error catching).
+- For the future: Priority of notes, customized themes for users, email notification settings on notes, different sorting options in a menu (time made, priority, alpha, etc) 
