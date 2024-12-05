@@ -1,4 +1,5 @@
 import axios from 'axios'
+// Changing backend functionality, no longer 3000/notes, add api to path
 const baseUrl = 'http://localhost:3000/notes'
 
 // called on page start up to get everyone in the db

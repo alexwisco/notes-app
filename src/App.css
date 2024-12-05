@@ -1,6 +1,6 @@
 body {
   margin: 40px;
-  background-color: lightgrey;
+  background-color: rgb(201, 193, 193);
 }
 
 .app-container {
@@ -39,7 +39,7 @@ body {
 }
 
 .notes-header button {
-  font-size: 16px;
+  font-size: 12px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -59,14 +59,14 @@ h2 {
 textarea,
 input {
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
   padding: 10px;
   font-size: 16px;
 }
 
 .note-form button {
   border-radius: 5px;
-  background-color: rgb(64, 154, 184);
+  background-color: rgb(128, 72, 133);
   border: none;
   padding: 10px;
   font-size: 16px;
@@ -74,7 +74,7 @@ input {
 }
 
 .note-form button:hover {
-  background-color: rgb(106, 175, 198);
+  background-color: rgb(80, 31, 73);
   cursor: pointer;
 }
 
