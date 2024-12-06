@@ -125,7 +125,7 @@ const showInfo = ({note}) => {
           {notes.map((note) => (
             <div key = {note.id}>
             <Note note = {note} deleteNote={()=> deleteNote(note.id)} />
-              <button onClick={showInfo(note)}>info</button>
+              
             </div>
               
           ))}
