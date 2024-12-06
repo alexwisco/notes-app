@@ -49,6 +49,7 @@ const handleContentChange = (e) => {
 // Adding a new note. User clicks submit button (event e). Create note object
 // with title and content from handlers. Add new note to notes[]. Logging for debugging.
 const addNote = (e) => {
+  console.log('beep')
   e.preventDefault()
 
   const noteObject = {
@@ -60,6 +61,7 @@ const addNote = (e) => {
       .create(noteObject)
       .then(note => {
         setNotes(notes.concat(note))
+    
         setNewTitle('')
         setNewContent('')
       })
@@ -82,7 +84,7 @@ const deleteNote = (id) => {
         .then(() => {
           // can't forget to update the ui 
           setNotes(notes.filter(note => note.id !== id)) 
-          console.log(`${objTitle} note has been deleted`)
+          console.log(`${objTitle} note has been deleted :)`)
         })
         // error checking functionality
         .catch(error => {
