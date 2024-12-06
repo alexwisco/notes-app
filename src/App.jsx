@@ -93,6 +93,19 @@ const deleteNote = (id) => {
 
 //****************************************************************************** 
 
+
+
+
+//****************************************************************************** 
+// Function to show debugging info of a note on button click
+const showInfo = ({note}) => {
+  e.preventDefault
+  console.log(note.title)
+  console.log(note.content)
+  console.log(note.id)
+}
+//****************************************************************************** 
+
   return (
     <>
     <h1> Notes App </h1>
@@ -110,6 +123,7 @@ const deleteNote = (id) => {
           {notes.map((note) => (
             <div key = {note.id}>
             <Note note = {note} deleteNote={()=> deleteNote(note.id)} />
+              <button onClick={showInfo(note)}>info</button>
             </div>
               
           ))}
